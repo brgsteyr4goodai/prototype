@@ -8,7 +8,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text> {Cellular.carrier} {"<->"} {Cellular.isoCountryCode} : {Cellular.mobileCountryCode} : {Cellular.mobileNetworkCode}</Text>
-      <Test />
       <StatusBar style="auto" />
     </View>
   );
